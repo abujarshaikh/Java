@@ -19,7 +19,7 @@ class ConVow {
             // TODO: handle exception
         }
         char alphabet = s.charAt(0);
-        if ((alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u')
+        if ((alphabet == ('a') || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u')
                 || (alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U')) {
             System.out.print(alphabet + " is a vowel");
         } else {

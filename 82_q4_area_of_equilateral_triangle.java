@@ -15,6 +15,7 @@ class EquilateralTriangle {
         } catch (Exception e) {
             // TODO: handle exception
         }
+
         double side = Double.parseDouble(s);
         double area = (Math.sqrt(3) / 4) * side * side;
         System.out.print("Area of equilateral triangle is: " + area);
